@@ -6,7 +6,37 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  Hello World
+  <div>
+  Header
+</div>
+
+<div>
+  <button onclick="showit('divvy1')">Div1</button>
+  <button onclick="showit('divvy2')">Div2</button>
+  <button onclick="showit('divvy3')">Div3</button>
+</div>
+
+<!-- This is some comment -->
+<div id="divvy1" style="display:block">
+  <div class="box red">
+    RED-DIV1
+  </div>
+</div>
+
+<!--Main section 2-->
+<div id="divvy2" style="display:none">
+  <div class="box blue">
+    BLUE-DIV2
+    <div>Hello</div>
+  </div>
+</div>
+
+<!--Main section 3-->
+<div id="divvy3" style="display:none">
+  <div class="box yellow">
+    YELLOW-DIV3
+  </div>
+</div>
 
   <script src="script.js"/>
 </body>
