@@ -1,0 +1,33 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.showit {
+  display: block;
+}
+
+.hideit {
+  display: none;
+}
+
+.box {
+  height: 400px;
+  width: 800px;
+  border: solid 3px black;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
